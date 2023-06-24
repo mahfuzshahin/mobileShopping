@@ -1,0 +1,23 @@
+.mat-button-toggle{
+  background-color: #f6f6f6;
+  color: red !important;
+  border-radius: 60px;
+  border-style: none !important;
+  width: 100px;
+  z-index: 1000;
+}
+.mat-button-toggle-group{
+  z-index: 1000;
+  border-width: 2px;
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}
+.tg1{
+  margin-left: 200px;
+  margin-top: 5px;
+  border: 2px solid rgb(205,198,198);
+  color: red;
+  background-color: white;
+  z-index: 1000;
+}

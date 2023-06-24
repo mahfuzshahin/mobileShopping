@@ -1,0 +1,15 @@
+<div>
+  <mat-card>
+    <mat-button-toggle-group class="tg1" name="pageselect" aria-label="Font Style" value="signin"
+                             #toggleBtn="matButtonToggleGroup">
+      <mat-button-toggle (change)="toggleFun1()" type="checkbox" class="btn1" value="signin">
+        SIGNIN
+      </mat-button-toggle>
+      <mat-button-toggle (change)="toggleFun2()" type="checkbox" class="btn1" value="signup">
+        SIGN UP
+      </mat-button-toggle>
+      <app-signin *ngIf="toggleBtn.value === 'signin'"></app-signin>
+      <app-signup *ngIf="toggleBtn.value === 'signup'"></app-signup>
+    </mat-button-toggle-group>
+  </mat-card>
+</div>
