@@ -14,6 +14,8 @@ import { SignupComponent } from './signup/signup.component';
 import {MatIconModule} from "@angular/material/icon";
 import { ProductgridComponent } from './productgrid/productgrid.component';
 import { TableproductComponent } from './tableproduct/tableproduct.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +33,8 @@ import { TableproductComponent } from './tableproduct/tableproduct.component';
     BrowserAnimationsModule,
     MatCardModule,
     MatButtonToggleModule,
-    MatIconModule
+    MatIconModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

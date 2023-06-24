@@ -1,1 +1,18 @@
-<p>productgrid works!</p>
+<b class="productbold" style="font-size: 2em;">Products</b>
+<div>
+  <mat-grid-list>
+    <mat-grid-tile>
+      <mat-card class="exmple-card">
+        <img mat-card-image src="{{prod.img}}" alt="iPhone">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-grid-tile>{{prod.name}}</mat-grid-tile>
+          <mat-card-header>{{prod.price | currency: 'INR'}}</mat-card-header>
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{prod.decsription}}</p>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
