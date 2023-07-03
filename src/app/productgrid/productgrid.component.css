@@ -1,0 +1,63 @@
+.flex-container{
+  margin-left: 50px;
+  width: 90%;
+  grid-gap: 20px 50px;
+  display: grid;
+}
+.productbold{
+  position: absolute;
+  width: 131px;
+  height: 35px;
+  left: 72px;
+  top: 181px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-width: 400;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: black;
+
+}
+mat-cart-image{
+  height: 500px;
+  width: 50px;
+}
+.exmple-card{
+  width: 400px;
+  height: 600px;
+  margin-left: 5px;
+  top: 100px;
+}
+mat-card-content{
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 369.14px;
+  height: 13.43px;
+  top: 280.39px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-wwight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #6d6d6d;
+}
+mat-button{
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  width: 100px;
+  height: 39.63px;
+  left: 119px;
+  top: 353px;
+  border: 1px solid white;
+}
+.inc{}

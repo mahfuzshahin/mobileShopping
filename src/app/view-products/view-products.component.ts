@@ -6,6 +6,7 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./view-products.component.css']
 })
 export class ViewProductsComponent implements OnInit{
-ngOnInit() {
-}
+  ngOnInit() {
+
+  }
 }
